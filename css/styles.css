@@ -590,9 +590,13 @@ grid-column: 1/3;
 }
 .section-c .container p{
 align-items: left;
-} */
-/* TAKENZ */
+}
 
+</strong>
+/* TAKENZ */
+.section-c .container p{
+text-align: justify;
+} 
 .what-i-do .icon {
     width: 175px;
     height: 175px;
