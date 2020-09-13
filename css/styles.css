@@ -690,7 +690,7 @@ var(--console-bg): #031e11; */
 .section-c .container div {
     align-items: flex-start;
     padding: 5rem;
-    flex-basis: 33.33%;
+    flex-basis: 33.33333333333333333333333333333333333333333333333333%;
     flex-grow: 0;
     text-align: center;
 
@@ -698,7 +698,7 @@ var(--console-bg): #031e11; */
 
 .section-c .what-i-do {
     text-transform: uppercase;
-    padding-right: 12rem;
+    /* padding-right: 12rem; */
     font-family: "Lato", sans-serif;
     font-weight: 300;
     letter-spacing: 1px;
