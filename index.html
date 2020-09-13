@@ -6,8 +6,8 @@
     <title>Ismail El-Sharkawy</title>
 
     <link rel="stylesheet" type="text/css" href="css/animate.css">
-<link rel="stylesheet" href="https://unpkg.com/aos@2.3.0/dist/aos.css">
- <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.0/dist/aos.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="href=" https://use.fontawesome.com/ffd064d2d1.css"">
     <script src="https://use.fontawesome.com/ffd064d2d1.js"></script>
@@ -22,7 +22,7 @@
     <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.0/jquery.waypoints.min.js"></script> -->
 
 <body>
-    <div class="header">
+    <div class="header"  data-spy="scroll">
         <!-- Navigation -->
         <nav class="navbar navbar-default navbar-fixed-top">
             <div class="container">
@@ -37,9 +37,10 @@
                 </div>
                 <div id="navbar" class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Contact Me</a></li>
+                        <li><a class="page-scroll" href="#home">Home</a></li>
+                        <li><a class="page-scroll" href="#about">About</a></li>
+                            <li><a class="page-scroll" href="#services">Passion</a></li>
+                        <li><a class="page-scroll" href="#contact">Contact Me</a></li>
                     </ul>
                 </div>
                 <!--/.nav-collapse -->
@@ -47,7 +48,7 @@
         </nav>
 
     </div>
-    <section class="top-container">
+    <section class="top-container" id="home">
         <div class="intro-container">
 
             <img class="avatar" src="images/person (1).svg" alt="">
@@ -114,8 +115,7 @@
         </div>
     </section>
 
-    <div class="middle-container" data-aos="fade-right" data-aos-offset="300"
-     data-aos-easing="ease-in-sine">
+    <div class="middle-container" data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine" id="about">
 
 
 
@@ -192,9 +192,9 @@
 
 
 
-    <section class="section-c">
+    <section class="section-c" id="services">
         <div class="what-i-do" data-aos="zoom-in">
-        WHAT I DO
+            <strong>WHAT I DO</strong>
         </div>
         <div class="container">
 
@@ -212,84 +212,87 @@
                     leveraged to create beautiful software.</p>
             </div>
 
-        <div data-aos="fade-left"><i class="icon fa fa-lightbulb-o fa-5x"></i>
-            <h3>Involvement</h3>
-            <p>minim enim quid dolor quae noster illum quae malis amet magna dolor malis fugiat
-                fore veniam malis aliqua fugiat noster aute velit quis culpa elit fore quae
-                export esse anim sint tamen malis elit anim sunt sunt nulla tamen cillum duis
-                malis nisi malis export sint export ipsum elit culpa elit magna dolore legam
-                fore quorum aliqua sint cillum anim</p>
-        </div>
+            <div data-aos="fade-left"><i class="icon fa fa-lightbulb-o fa-5x"></i>
+                <h3>Involvement</h3>
+                <p>minim enim quid dolor quae noster illum quae malis amet magna dolor malis fugiat
+                    fore veniam malis aliqua fugiat noster aute velit quis culpa elit fore quae
+                    export esse anim sint tamen malis elit anim sunt sunt nulla tamen cillum duis
+                    malis nisi malis export sint export ipsum elit culpa elit magna dolore legam
+                    fore quorum aliqua sint cillum anim</p>
+            </div>
         </div>
     </section>
-<hr>
+    <hr>
 
 
-<section id="resume">
-            <div class="text-center">
-                <div class="overlay">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <h2>Check out my résumé!</h2>
-                                <div id="resume-button">
-                                    <a class="resume-btn wp4" href="resume2020.pdf" target="_blank">Grab A Copy</a>
-                                </div>
+    <section id="resume">
+        <div class="text-center">
+            <div class="overlay">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h2>Check out my résumé!</h2>
+                            <div id="resume-button">
+                                <a class="resume-btn wp4" href="resume2020.pdf" target="_blank">Grab A Copy</a>
                             </div>
                         </div>
-                        <!-- row -->
                     </div>
-                    <!-- container -->
+                    <!-- row -->
+                </div>
+                <!-- container -->
+            </div>
+        </div>
+    </section>
+
+
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 col-md-offset-1 text-center">
+                    <div class="email-icon"><i class="fa fa-paper-plane-o wp6"></i></div>
+                    <h2>Get In Touch!</h2>
+                    <p>Whether you have an idea for a project or just want to chat, feel free to shoot me an email!</p>
+                    <p style="margin-top:40px;">
+                        <a id="email-button" href="mailto:ismail@aucegypt.edu" target="_blank">Say Hello</a>
+                    </p>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <!-- <h3>Other places you can find me</h3> -->
+                    <ul class="list-inline social-buttons animated fadeIn">
+                        <!-- Facebook Button -->
+                        <li><a id="facebook" href="https://https://www.facebook.com/ismail.sharkawy/" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                        <!-- Twitter Button -->
+                        <li><a id="twitter" href="https://twitter.com/Ismai1LSharkawy" target="_blank"><i class="fa fa-twitter"></i></a></li>
 
-        <section id="contact">
-                    <div class="container">
-                        <div class="row">
-                            <div class="col-md-10 col-md-offset-1 text-center">
-                                <div class="email-icon"><i class="fa fa-paper-plane-o wp6"></i></div>
-                                <h2>Get In Touch!</h2>
-                                <p>Whether you have an idea for a project or just want to chat, feel free to shoot me an email!</p>
-                                <p style="margin-top:40px;">
-                                    <a id="email-button" href="mailto:ismail@aucegypt.edu" target="_blank">Say Hello</a>
-                                </p>
-                            </div>
-                        </div>
+                        <!-- Spotify Button -->
+                        <li><a id="spotify" href="https://play.spotify.com/" target="_blank"><i class="fa fa-spotify"></i></a></li>
+
+                        <!-- GitHub Button -->
+                        <li><a id="github" href="https://github.com/IsmailSharkawy" target="_blank"><i class="fa fa-github"></i></a></li>
+                        <!-- LinkedIn Button -->
+                        <li><a id="linkedin" href="https://www.linkedin.com/in/ismailelsharkawy/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                    </ul>
+
+                    <div class="copyright">
+                        <!-- please don't steal my stuff without permission -->
+                        <p><i class="fa fa-copyright"></i> Ismail El-Sharkawy 2020</p>
                     </div>
-                </section>
-
-                <footer>
-                        <div class="container">
-                            <div class="row">
-                                <div class="col-md-12 text-center">
-                                    <!-- <h3>Other places you can find me</h3> -->
-                                    <ul class="list-inline social-buttons animated fadeIn">
-                                        <!-- Facebook Button -->
-                                        <li><a id="facebook" href="https://https://www.facebook.com/ismail.sharkawy/" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                        <!-- Twitter Button -->
-                                        <li><a id="twitter" href="https://twitter.com/Ismai1LSharkawy" target="_blank"><i class="fa fa-twitter"></i></a></li>
-
-                                        <!-- Spotify Button -->
-                                        <li><a id="spotify" href="https://play.spotify.com/" target="_blank"><i class="fa fa-spotify"></i></a></li>
-
-                                        <!-- GitHub Button -->
-                                        <li><a id="github" href="https://github.com/IsmailSharkawy" target="_blank"><i class="fa fa-github"></i></a></li>
-                                        <!-- LinkedIn Button -->
-                                        <li><a id="linkedin" href="https://www.linkedin.com/in/ismailelsharkawy/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                                    </ul>
-
-                                    <div class="copyright">
-                                        <!-- please don't steal my stuff without permission -->
-                                        <p><i class="fa fa-copyright"></i> Ismail El-Sharkawy 2020</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- container -->
-                    </footer>
+                </div>
+            </div>
+        </div>
+        <!-- container -->
+    </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js" charset="utf-8"></script>
+ <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/jquery.scrollTo.min.js"></script>
+        <script src="js/scrolling-nav.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" charset="utf-8"></script>
     <script src="js/script.js" charset="utf-8"></script>
 
@@ -308,9 +311,9 @@
 
     </script> -->
 
-<script>
-    AOS.init();
-</script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 

@@ -42,7 +42,7 @@ ul {
 }
 
 a {
-    color: var(--secondary-color);
+    /* color: var(--secondary-color); */
     text-decoration: none !important;
 }
 
@@ -172,7 +172,6 @@ CLASSES
 /* NAVBAR */
 
 .navbar {
-    height: 50px;
     background-color: transparent;
     border: none;
     color: white;
@@ -184,7 +183,6 @@ CLASSES
 .navbar-brand {
     font-family: 'Great Vibes', cursive;
     font-size: 30px;
-    color: black;
     text-align: center;
 }
 
@@ -376,7 +374,7 @@ var(--console-bg): #031e11; */
 
 .middle-container a:active, .middle-container a:focus, .middle-container a:hover {
     background-color: #14fdce;
-    color: #031e11;
+    /* color: #031e11; */
 }
 
  .piece {
@@ -563,13 +561,13 @@ text-align: center;
 }
 .section-c  .what-i-do {
     text-transform: uppercase;
-
+padding-right: 12rem;
         font-family: "Lato", sans-serif;
         font-weight: 300;
         letter-spacing: 1px;
             font-size: 6.5rem;
             text-align: center;
-            margin-top: 50px;
+            padding-top: 15rem;
             /* background-color: red; */
 }
 /* .section-c div {
