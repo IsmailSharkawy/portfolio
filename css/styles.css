@@ -690,7 +690,7 @@ var(--console-bg): #031e11; */
 .section-c .container div {
     align-items: flex-start;
     padding: 5rem;
-    flex-basis: 25%;
+    flex-basis: 33.33%;
     flex-grow: 0;
     text-align: center;
 
